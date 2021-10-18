@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>krishn bhajans</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .section {
+            display: flex;
+            flex-direction: row;
+            height: fit-content;
+            padding: 0 5%;
+        }
+
+        .section_1 {
+            width: 50%;
+
+        }
+
+        .section_2 {
+            width: 45%;
+
+            /* background-color: yellow; */
+            /* border: 1px solid grey; */
+        }
+
+
+        .section_1 a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            background-color: pink;
+            border: 1px solid rgba(5, 250, 197, 0.89);
+            max-width: 100%;
+            border-radius: 5px;
+            height: 20px;
+
+        }
+
+        .section_2 a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            background-color: pink;
+            border: 1px solid rgba(5, 250, 197, 0.89);
+            max-width: 100%;
+            border-radius: 5px;
+            height: 20px;
+            margin:0 5px;
+
+        }
+
+        .section_1 a:hover {
+
+            background-color: rgba(248, 10, 89, 0.774);
+            color: white;
+            font-size: 18px;
+            border-radius: 7px;
+            height: 25px;
+
+        }
+
+        .section_2 a:hover {
+
+            background-color: rgba(248, 10, 89, 0.774);
+            color: white;
+            font-size: 18px;
+            border-radius: 7px;
+            height: 25px;
+        }
+
+
+
+        .section_1 img {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .section_2 img {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+       
+
+
+
+
+        @media only screen and (max-width:600px) {
+            .section {
+                flex-direction: column;
+            }
+
+            .section_1 {
+                width: 100%;
+
+            }
+
+            .section_2 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2> krishn bhajans</h2>
+    <div class="section">
+        <div class="section_1">
+            <a href="#" target=""> 1. Mithe ras se bhariyo</a>
+            <a href="#">2. Adhuram Maduram</a>
+            <a href="#">3. Hum katha sunate hai </a>
+            <a href="#">4. kanhaiya kanhaiya pukara karege</a>
+            <a href="#">5. Chhap tilak sab chhini </a>
+            <a href="#">6. jagat ke rang kya dekhu</a>
+
+            <!-- image-->
+
+            <img src="./gallery/g2.jpg" alt="" id="pic1">
+
+        </div>
+
+        <div class="section_2">
+            <img src="./images/bg.jpg" alt="">
+            <a href="#">7. he gopal krishn karun arti teri</a>
+            <a href="#">8. madhur suna de taan</a>
+            <a href="#">9. achyutam keshavam</a>
+        
+        </div>
+
+    </div>
+</body>
+
+</html>

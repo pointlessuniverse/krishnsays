@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blogs</title>
+    <style>
+        *{
+            padding: 0;
+            margin:0;
+            box-sizing: border-box;
+        }
+       
+        p{
+            margin-top:10px;
+            font-weight:bolder;
+            font-size: xx-large;
+        }
+        h1{
+            font-family: cursive;
+            text-align: center;
+            margin-top: 0;
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(238,68,219,0.7724252491694352) 26%, rgba(0,212,255,1) 100%);
+        }
+
+        .box img{
+            float:left;
+            width: 10%;
+            border: 2px solid rgb(216, 202, 202);
+            border-radius: 5px;
+            height:80px;
+        }
+
+        a{
+            text-decoration: none;
+            color:inherit;
+        }
+
+        .box:hover{
+            background:linear-gradient(90deg, rgb(3, 1, 27) 0%, rgba(240, 200, 235, 0.772) 26%, rgb(164, 214, 224) 100%);
+        }
+
+        .box{
+            border:1px solid black;
+            padding: 10px 5px;
+            max-height: min-content;
+            text-align: center;
+            margin:5px 5px;
+            border-radius: 15px;
+            background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(238,68,219,0.7724252491694352) 26%, rgba(0,212,255,1) 100%);
+        }
+        .box::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        @media only screen and (max-width:784px) {
+            .box img{
+                width:20%;
+                height:50px;
+            }
+
+            p{
+                font-size: small;
+                font-weight:bolder;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Read interesting blogs.</h1>
+    <div class="box">
+        <a href="https://krishnsays.blogspot.com/2021/10/thank-you-for-reading-this-post.html">
+        <img src="images/blog1.jpg" alt="">
+      <p> कृष्ण ने यूधुष्ठिर को जुआ खेलने से क्यो नहीं रोका ? </p>
+        </a>
+    </div>
+    <div class="box">
+        <a href="https://krishnsays.blogspot.com/2021/08/10-amazing-fact-about-bhagavad-gita-by.html">
+        <img src="images/blog3.PNG" alt="">
+      <p> Top 10 Amazing fact about shrimad Bhagavad Gita.  </p>
+        </a>
+    </div>
+    <div class="box">
+        <a href="https://krishnsays.blogspot.com/2021/07/bhagavad-gita-quotes.html">
+        <img src="images/blog4.jpg" alt="">
+      <p> Top 10 Shrimad Bhagavad Gita quotes  </p>
+        </a>
+    </div>
+</body>
+</html>

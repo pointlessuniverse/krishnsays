@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Download my Play list</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+      
+      h3{
+          color:rgb(17, 5, 5);
+          background-color: pink;
+         border: 1px solid rgba(5, 250, 197, 0.89); 
+         border-radius: 5px;
+         text-align: center;
+      }
+      .mainbox{
+          display:flex;
+          flex-direction: row;
+          padding:10px;
+          margin:0;
+          /* border:1px solid grey; */
+      }
+
+      .box_1{
+          width: 50%;
+          height:fit-content;
+
+      }
+
+      .box_2{
+          width:50%;
+          height:fit-content;
+      }
+
+      .container{
+          width:90%;
+          padding: 2px 5px;
+          height:fit-content;
+          display: flex;
+          flex-direction: row;
+          margin:5px auto;
+          background-color: pink;
+         border: 1px solid rgba(5, 250, 197, 0.89); 
+         border-radius: 5px;
+          
+      }
+
+      .container img{
+          float:left;
+          width:40px;
+          margin:2px auto ;
+          height:80%;
+          border:1px solid black;
+          border-radius: 5px;
+
+      }
+
+      a{
+          text-decoration: none;
+         padding:0px 10px;
+
+      }
+
+      p{
+        /* text-decoration: none; */
+            color:black;
+            display:inline-block ;
+            margin:10px;
+            max-width: 100%;
+            /* border-radius: 5px; */
+            /* height: 20px; */
+
+
+      }
+
+      p:hover{
+        background-color: rgba(248, 10, 89, 0.774);
+            color: white;
+            font-size: 18px;
+            border-radius: 7px;
+            height: 25px;
+      }
+
+      .container::after{
+        
+            content: "";
+            display: block;
+            clear: both;
+        
+      }
+
+      @media only screen and (max-width:650px){
+        .mainbox{
+          padding:0 5px;
+          flex-direction:column;
+        }
+
+        .box_1{
+          width: 95%;
+         
+      }
+
+      .box_2{
+          width:95%;
+          /* height:fit-content; */
+      }
+
+
+      }
+
+      @media only screen and (max-width:360px){
+          p{
+              font-weight: lighter;
+              font-size: smaller;
+          }
+      }
+
+    </style>
+</head>
+<body>
+    <h3> Here are some of my favorite songs</h3>
+
+    <div class="mainbox">
+        <div class="box_1">
+
+            <div class="container">
+                <a href="">                      <!--link of song-->
+                <img src="./images/musiclogo.webp" alt="">             <!-- thumbsnail pic-->
+                <p> 01. Sajda </p>                        <!--song names -->
+                </a>
+            </div>
+
+            <div class="container">
+                <a href="">                      <!--link of song-->
+                <img src="./images/musiclogo.webp" alt="">             <!-- thumbsnail pic-->
+                <p>02. Abhi Kuch dino se </p>                        <!--song names -->
+                </a>
+            </div>
+
+            <div class="container">
+                <a href="">                      <!--link of song-->
+                <img src="./images/musiclogo.webp" alt="">             <!-- thumbsnail pic-->
+                <p>03. bol na halke halke </p>                        <!--song names -->
+                </a>
+            </div>
+
+            <div class="container">
+                <a href="">                      <!--link of song-->
+                <img src="./images/musiclogo.webp" alt="">             <!-- thumbsnail pic-->
+                <p>04. Jiya dhadak dhadak jaye </p>                        <!--song names -->
+                </a>
+            </div>
+
+        </div>
+
+        <!-- song of box 2 -->
+        <div class="box_2">
+
+            
+            <div class="container">
+                <a href="">                      <!--link of song-->
+                <img src="./images/musiclogo.webp" alt="">             <!-- thumbsnail pic-->
+                <p>05. O Re Piya (Aja nachle) </p>                        <!--song names -->
+                </a>
+            </div>
+
+            <div class="container">
+                <a href="">                      <!--link of song-->
+                <img src="./images/musiclogo.webp" alt="">             <!-- thumbsnail pic-->
+                <p>06. Surili Ankhiyon Wale </p>                        <!--song names -->
+                </a>
+            </div>
+
+            <div class="container">
+                <a href="">                      <!--link of song-->
+                <img src="./images/musiclogo.webp" alt="">             <!-- thumbsnail pic-->
+                <p>07. Tujhko jo Paaya</p>                        <!--song names -->
+                </a>
+            </div>
+
+            <div class="container">
+                <a href="">                      <!--link of song-->
+                <img src="./images/musiclogo.webp" alt="">             <!-- thumbsnail pic-->
+                <p>08. Tum se Hi  </p>                        <!--song names -->
+                </a>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
